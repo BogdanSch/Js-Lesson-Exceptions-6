@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <section class="calculator">
+        <div class="container">
+            <div class="calculator__wrap">
+                <div class="row">
+                    <div class="col s12 m8 offset-m2">
+                        <h1 class="tac">Bulbulator 3000</h1>
+                        <div class="calculator-card card">
+                            <div class="card-content">
+                                <input id="display" type="text" value="0" disabled>
+                                <div class="row">
+                                    <div class="col s3">
+                                        <button class="btn-clear btn waves-effect waves-light">AC</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-square btn waves-effect waves-light">x²</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-root btn waves-effect waves-light">√</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-action btn waves-effect waves-light orange">/</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">7</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">8</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">9</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-action btn waves-effect waves-light orange">*</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">4</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">5</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">6</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-action btn waves-effect waves-light orange">-</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">1</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">2</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">3</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-action btn waves-effect waves-light orange">+</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s3">
+                                        <button class="btn-action btn waves-effect waves-light">+/-</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">0</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-number btn waves-effect waves-light">.</button>
+                                    </div>
+                                    <div class="col s3">
+                                        <button class="btn-calculate btn waves-effect waves-light orange">=</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="output">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        M.AutoInit();
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
